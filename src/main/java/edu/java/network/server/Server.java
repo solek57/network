@@ -6,20 +6,32 @@ import java.net.Socket;
 
 public class Server {
     public static void main(String[] args) throws IOException {
-        ServerSocket serverSocket = new ServerSocket(25237);
+        ServerSocket serverSocket = new ServerSocket(25238);
         while (true) {
             Socket client = serverSocket.accept();
             System.out.println("socket started");
-            handleRequest(client);
+            new Thread(() -> {
+                try {
+                    Thread.sleep(2000);
+                    handleRequest(client);
+                } catch (IOException | InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }).start();
+
         }
     }
 
     private static void handleRequest(Socket socket) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
-       // System.out.println("get word:" + br.readLine());
+        // System.out.println("get word:" + br.readLine());
         StringBuilder sb = new StringBuilder("Hello ");
-        sb.append(br.readLine());
+        String name = br.readLine();
+
+        sb.append(name);
+        if ("Dmitry 1".equals(name))
+            sb.append("это тот кто нужен");
         System.out.println("user: " + sb.toString());
 
         bw.write(sb.toString());
