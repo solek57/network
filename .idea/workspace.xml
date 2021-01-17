@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b26413e-0cb9-4674-9853-2b8a3e7f8b5c" name="Default Changelist" comment="" />
+    <list default="true" id="8b26413e-0cb9-4674-9853-2b8a3e7f8b5c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/java/network/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/java/network/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/java/network/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/java/network/server/Server.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1nA6TZMpeOqsTT5OG7V3EtxQ0VH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,6 +34,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager" selected="Application.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -71,7 +86,8 @@
       <option name="presentableId" value="Default" />
       <updated>1610820556773</updated>
       <workItem from="1610820558181" duration="1767000" />
-      <workItem from="1610822342287" duration="626000" />
+      <workItem from="1610822342287" duration="1657000" />
+      <workItem from="1610904111396" duration="1485000" />
     </task>
     <servers />
   </component>
@@ -79,22 +95,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1610823109750">
+    <state x="361" y="72" key="#Project_Structure" timestamp="1610904267062">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610823109750" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1610823109750">
+    <state x="361" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1610904267062" />
+    <state width="1493" height="273" key="GridCell.Tab.0.bottom" timestamp="1610905656602">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610823109750" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1610823109750">
+    <state width="1493" height="273" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610905656602" />
+    <state width="1493" height="273" key="GridCell.Tab.0.center" timestamp="1610905656602">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610823109750" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1610823109750">
+    <state width="1493" height="273" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610905656602" />
+    <state width="1493" height="273" key="GridCell.Tab.0.left" timestamp="1610905656602">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610823109750" />
+    <state width="1493" height="273" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610905656602" />
+    <state width="1493" height="273" key="GridCell.Tab.0.right" timestamp="1610905656602">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="273" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610905656602" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1610822113254">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -111,13 +131,29 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1610822113254" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1610822342318">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1610904111275">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1610822342318" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1610904111275" />
     <state x="499" y="169" key="extract.method.dialog" timestamp="1610820980851">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="169" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1610820980851" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/java/network/server/Server.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/java/network/client/Client.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
