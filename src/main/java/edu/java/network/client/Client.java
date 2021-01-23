@@ -11,11 +11,11 @@ public class Client {
             int finalI = i;
             new Thread(() -> {
                 try {
-                    System.out.println("started " + finalI + ": " + LocalDateTime.now());
-                    Thread.sleep(2000);
-                    String re = sendRequest(finalI);
-                    System.out.println("finish " + finalI + "@" + re + "@" + ": " + LocalDateTime.now());
-                } catch (IOException | InterruptedException e) {
+                    //System.out.println("started " + finalI + ": " + LocalDateTime.now());
+                    //Thread.sleep(2000);
+                    String re = sendRequest("MORNING");
+                    // System.out.println("finish " + finalI + "@" + re + "@" + ": " + LocalDateTime.now());
+                } catch (IOException e) {
                     e.printStackTrace();
                 }
             }).start();
@@ -23,12 +23,12 @@ public class Client {
 
     }
 
-    private static String sendRequest(Integer i) throws IOException {
+    private static String sendRequest(String command) throws IOException {
         Socket socket = new Socket("127.0.0.1", 25238);
         BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
 
-        String sb = "Dmitry " + i;
+        String sb = command + " Dmitry";
 
         bw.write(sb);
         bw.newLine();
